@@ -45,6 +45,34 @@ The second screenshot lists the models and their corresponding AIC and BIC value
 
 The DW3 and IFRGSB models stood out in our analysis. These models are the most suitable for our data, as they provide a balance between accurately fitting our past failure data and avoiding overly complex models that are difficult to generalize. They will be used to inform our understanding of the software's reliability and guide future testing efforts.
 
+## e) Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
+
+## f) Plots for failure rate and reliability of the SUT for the test data provided
+
+### MVF Graph for Model 1:
+
+![](./media/MVFGraph1.png)
+
+### Intensity Graph for Model 1:
+
+![](./media/IntensityGraph1.png)
+
+### MVF Graph for Model 2:
+
+![](./media/MVFGraph2.png)
+
+### Intensity Graph for Model 2:
+
+![](./media/IntensityGraph2.png)
+
+### Reliability Graph Prediction (SRTAT):
+
+### Reliability Graph Prediction (C-SFRAT):
+
+## g) A discussion on decision making given a target failure rate
+
+## h) A discussion on the advantages and disadvantages of reliability growth analysis
+
 # 3. Assessment Using Reliability Demonstration Chart
 
 #
