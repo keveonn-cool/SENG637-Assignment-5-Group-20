@@ -75,16 +75,36 @@ The DW3 and IFRGSB models stood out in our analysis. These models are the most s
 
 # 3. Assessment Using Reliability Demonstration Chart
 
-#
+![](./media/RDC1.jpeg)
+
+The figure above shows that with a risk tolerance set at 1 failure every 10 seconds and a discrimination ratio of 2, the system will be deemed acceptable if it achieves a Failure Intensity Object of 1.5 failures per second. Therefore, both developers and customers require the software to not exceed one failure every 10 seconds.
+
+The discrimination ratio is used to indicate the level of error tolerated in the calculations and corresponds to the gap between the acceptance and rejection thresholds. For the software to be considered satisfactory by developers and customers, it must reach a minimum Failure Intensity Object of 1.5 failures per second.
+
+![](./media/RDC2.jpeg)
+
+The figure above demonstrates what happens to the Failure Intensity Object (FIO) when it is halved. The reset of failure data in the continuation of the graph indicates that the FIO data neither meets nor fails the risk requirements. Instead, it remains undetermined due to the allowable error introduced by the discrimination ratio. For example, if the discrimination ratio were reduced, the failure data would be rejected under those conditions.
+
+![](./media/RDC3.jpeg)
+
+The figure above illustrates the effect of doubling the Failure Intensity Object (FIO), raising it to 3. This increase results in failure data significantly exceeding the acceptance rate. With an FIO of 3, the system clearly surpasses both customer and developer expectations.
+
 
 # Comparison of Results
 
 # Discussion on Similarity and Differences of the Two Techniques
 
+Exploring the various techniques and noting their differences was enlightening. Both methods differ yet provide visual analyses of failure rates in relation to expected values. Reliability Growth Testing offered a comprehensive view of the entire dataset over the specified timeframe, whereas the Reliability Demonstration Chart specifically facilitated comparisons between clearly accepted and rejected conditions.
+
+The Reliability Demonstration Chart primarily highlights the system’s reliability, while Reliability Growth Testing not only enhances system reliability but also identifies overall system deficiencies. Employing these diverse techniques further enables a more complete understanding of the issues at hand and promotes improvements across various aspects simultaneously.
+
 # How the team work/effort was divided and managed
 
-#
+We divided into two pairs, with each duo focusing primarily on either part one or part two of the project. Despite the division, we consistently communicated with the other pair to ensure a comprehensive understanding of the entire lab and to provide assistance whenever necessary. We arranged regular meetings every few days to review our progress and determine if further support was required. Although each team was assigned different sections, we made efforts to collaborate whenever possible.
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
+SRTAT and the Excel sheet did not function as outlined in the lab handout, necessitating the use of C-SFRAT for the first part of the lab. Additionally, the lab instructions were not clear. Initially, the RDC spreadsheet was challenging to operate and understand, especially as it required editing privileges for modifications. However, after reviewing the instructions, using the RDC program became much simpler.
+
 # Comments/feedback on the lab itself
+The lab presented significant challenges due to the lack of detailed instructions and helpful tips, making it difficult to navigate and use the provided tools effectively. For instance, in the RDC section, the abundance of data and its disorganized presentation made it confusing to determine which values needed adjustment and which data required attention. Clearer guidance and more specific details on key areas to focus on would have greatly enhanced our ability to proceed with the lab tasks.
