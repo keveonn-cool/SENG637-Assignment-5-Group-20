@@ -47,6 +47,8 @@ The DW3 and IFRGSB models stood out in our analysis. These models are the most s
 
 ## e) Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
 
+          ******Pending*******
+
 ## f) Plots for failure rate and reliability of the SUT for the test data provided
 
 ### MVF Graph for Model 1:
@@ -66,12 +68,16 @@ The DW3 and IFRGSB models stood out in our analysis. These models are the most s
 ![](./media/IntensityGraph2.png)
 
 ### Reliability Graph Prediction (SRTAT):
+    ******Pending*******
 
 ### Reliability Graph Prediction (C-SFRAT):
+    ******Pending*******
 
 ## g) A discussion on decision making given a target failure rate
+    ******Pending*******
 
 ## h) A discussion on the advantages and disadvantages of reliability growth analysis
+    ******Pending*******
 
 # 3. Assessment Using Reliability Demonstration Chart
 
@@ -91,6 +97,7 @@ The figure above illustrates the effect of doubling the Failure Intensity Object
 
 
 # Comparison of Results
+    ******Pending*******
 
 # Discussion on Similarity and Differences of the Two Techniques
 
