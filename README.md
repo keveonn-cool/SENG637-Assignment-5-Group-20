@@ -51,7 +51,7 @@ Using the following formula we were able to determine the laplace value for each
 
 ![](./media/laplace.png)
 
-The Laplace trend test applied to model DW3(F) yielded a result of u(31) = -0.8, falling within the range of -2 to 2, indicating that data within intervals [0,31] is considered acceptable. The above figure illustrates the application of the Laplace trend test to the DW3(F) model. Furthermore, the above figure demonstrates reliability growth, as the u(k) values consistently fall below zero within the interval [3,31].
+The Laplace trend test applied to model DW3(F) yielded a result of u(31) = -0.8, falling within the range of -2 to 2, indicating that data within intervals [0,31] is considered acceptable. The below figure illustrates the application of the Laplace trend test to the DW3(F) model. Furthermore, the below figure demonstrates reliability growth, as the u(k) values consistently fall below zero within the interval [3,31].
 
 ![](./media/uk1.png)
 
