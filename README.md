@@ -51,7 +51,13 @@ Using the following formula we were able to determine the laplace value for each
 
 ![](./media/laplace.png)
 
-          ******Pending*******
+The Laplace trend test applied to model DW3(F) yielded a result of u(31) = -0.8, falling within the range of -2 to 2, indicating that data within intervals [0,31] is considered acceptable. The above figure illustrates the application of the Laplace trend test to the DW3(F) model. Furthermore, the above figure demonstrates reliability growth, as the u(k) values consistently fall below zero within the interval [3,31].
+
+![](./media/uk1.png)
+
+The Laplace trend test conducted on the IFRGSB(E,F) model yielded a result of u(31) = -0.54, falling within the acceptable range of -2 to 2. This implies that the data within intervals [0,31] is deemed acceptable. The figure below illustrates the application of the Laplace trend test to the IFRGSB(E,F) model. Moreover, the figure below indicates reliability growth, as the u(k) values consistently remain below zero within the interval [27,31].
+
+![](./media/uk2.png)
 
 ## f) Plots for failure rate and reliability of the SUT for the test data provided
 
