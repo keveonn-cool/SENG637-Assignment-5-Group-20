@@ -47,6 +47,10 @@ The DW3 and IFRGSB models stood out in our analysis. These models are the most s
 
 ## e) Result of range analysis (an explanation of which part of data is good for proceeding with the analysis)
 
+Using the following formula we were able to determine the laplace value for each k value.
+
+![](./media/laplace.png)
+
           ******Pending*******
 
 ## f) Plots for failure rate and reliability of the SUT for the test data provided
