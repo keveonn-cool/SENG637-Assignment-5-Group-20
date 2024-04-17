@@ -143,9 +143,9 @@ Advantages of RDC Analysis
 * Time efficient
 
 Disadvantages of RDC Analysis
-*Disadvantages of RDC Analysis
-*Only demonstrates the trend of changes and how they effect reliability
-*Experimenting with different confidence levels and MTTF is tedious
+* Disadvantages of RDC Analysis
+* Only demonstrates the trend of changes and how they effect reliability
+* Experimenting with different confidence levels and MTTF is tedious
 
 # Comparison of Results
    After delving into the Reliability Demonstration Chart (RDC) analysis and contrasting the outcomes with the reliability growth testing performed in Part 1 using tools like C-SFRAT, several insights emerged. The RDC provided a straightforward evaluation of whether the system's failure rate was within acceptable risk tolerance levels. This binary 'pass' or 'fail' assessment was particularly valuable in making high-level reliability decisions.
