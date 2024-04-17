@@ -130,11 +130,11 @@ The figure above demonstrates what happens to the Failure Intensity Object (FIO)
 
 The figure above illustrates the effect of doubling the Failure Intensity Object (FIO), raising it to 3. This increase results in failure data significantly exceeding the acceptance rate. With an FIO of 3, the system clearly surpasses both customer and developer expectations.
 
-## Evaluation of how MTTFmin is decided
+### Evaluation of how MTTFmin is decided
 
 To find the MTTFmin, we conducted tests using failure data across a range of MTTF values. We plotted this data until the final failure point nearly intersects the acceptable range, thus defining the MTTFmin.
 
-## Advantages and Disadvantages of Reliability Demonstration Chart (RDC)
+### Advantages and Disadvantages of Reliability Demonstration Chart (RDC)
 
 Advantages of RDC Analysis
 *Cost efficient
