@@ -137,10 +137,10 @@ To find the MTTFmin, we conducted tests using failure data across a range of MTT
 ### Advantages and Disadvantages of Reliability Demonstration Chart (RDC)
 
 Advantages of RDC Analysis
-*Cost efficient
-*Versatile
-*Can be used to justify/support decisions
-*Time efficient
+* Cost efficient
+* Versatile
+* Can be used to justify/support decisions
+* Time efficient
 
 Disadvantages of RDC Analysis
 *Disadvantages of RDC Analysis
