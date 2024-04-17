@@ -78,10 +78,8 @@ The Laplace trend test conducted on the IFRGSB(E,F) model yielded a result of u(
 ![](./media/IntensityGraph2.png)
 
 ### Reliability Graph Prediction (SRTAT):
-    ******Pending*******
 
-### Reliability Graph Prediction (C-SFRAT):
-    ******Pending*******
+![](./media/reliability.png)
 
 ## g) A discussion on decision making given a target failure rate
 
