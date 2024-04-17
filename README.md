@@ -124,7 +124,11 @@ The figure above illustrates the effect of doubling the Failure Intensity Object
 
 
 # Comparison of Results
-    ******Pending*******
+   After delving into the Reliability Demonstration Chart (RDC) analysis and contrasting the outcomes with the reliability growth testing performed in Part 1 using tools like C-SFRAT, several insights emerged. The RDC provided a straightforward evaluation of whether the system's failure rate was within acceptable risk tolerance levels. This binary 'pass' or 'fail' assessment was particularly valuable in making high-level reliability decisions.
+
+In contrast, Part 1’s reliability growth analysis offered a more detailed trajectory of the software’s improvement over time, giving us a nuanced understanding of how reliability evolved with each development cycle. While the RDC outcomes were instrumental in validating the software against a set failure rate target, the reliability growth analysis provided actionable insights into specific areas requiring attention.
+
+The synergy of these two analyses equips us with a comprehensive reliability profile of our software. The RDC results anchor our reliability expectations, and the growth analysis from Part 1 informs our ongoing improvement strategies.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
