@@ -74,7 +74,12 @@ The DW3 and IFRGSB models stood out in our analysis. These models are the most s
     ******Pending*******
 
 ## g) A discussion on decision making given a target failure rate
-    ******Pending*******
+In this stage of our assessment, we focused on establishing a target failure rate, which serves as a critical benchmark for the reliability of the software. This target is derived by analyzing the frequency of observed failures over the operational hours of the system. A crucial aspect of this analysis was to determine a failure rate that ensures user safety while maintaining the functional integrity of the software.
+
+By employing the predictive capabilities of C-SFRAT and cross-validating with SRTAT, we were able to set a failure rate target. This rate was calculated by dividing the total number of observed failures by the cumulative operational hours. The goal was to identify a rate that would not only be realistic but also indicative of a high-reliability standard.
+
+Our targeted failure rate is oriented toward minimizing system downtime and ensuring a seamless user experience. With the reliability models' lowest failure intensities in mind, we set an ambitious yet achievable target. This target underpins our commitment to rigorous testing and continuous improvement, ensuring that the software meets the robust reliability criteria we have set forth before it is released to our end-users.
+    
 
 ## h) A discussion on the advantages and disadvantages of reliability growth analysis
     ******Pending*******
