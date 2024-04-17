@@ -84,12 +84,10 @@ The Laplace trend test conducted on the IFRGSB(E,F) model yielded a result of u(
     ******Pending*******
 
 ## g) A discussion on decision making given a target failure rate
-In this stage of our assessment, we focused on establishing a target failure rate, which serves as a critical benchmark for the reliability of the software. This target is derived by analyzing the frequency of observed failures over the operational hours of the system. A crucial aspect of this analysis was to determine a failure rate that ensures user safety while maintaining the functional integrity of the software.
 
-By employing the predictive capabilities of C-SFRAT and cross-validating with SRTAT, we were able to set a failure rate target. This rate was calculated by dividing the total number of observed failures by the cumulative operational hours. The goal was to identify a rate that would not only be realistic but also indicative of a high-reliability standard.
-
-Our targeted failure rate is oriented toward minimizing system downtime and ensuring a seamless user experience. With the reliability models' lowest failure intensities in mind, we set an ambitious yet achievable target. This target underpins our commitment to rigorous testing and continuous improvement, ensuring that the software meets the robust reliability criteria we have set forth before it is released to our end-users.
+Setting a target failure rate involves trade-offs: a lower rate necessitates more testing, which increases costs and delays product launch, whereas a higher rate offers more leeway for either additional testing to confirm quality or accepting the product as is. Based on these considerations, we propose a target failure rate of 0.6 for this system. The model IFRGSB(E,F) achieves this rate by the 32nd interval, and the model DW3(F) by the 37th interval, as shown in the figure below. This target rate minimizes the need for further testing while maintaining system reliability.
     
+![](./media/Intensity_graph_FR.png)
 
 ## h) A discussion on the advantages and disadvantages of reliability growth analysis
 ### Advantages of Reliability Growth Analysis
